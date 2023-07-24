@@ -1,0 +1,35 @@
+
+HW1 Linux terminal (GitBash) commands
+
+1) Посмотреть где я - pwd
+2) Создать папку - mkdir название_папки
+3) Зайти в папку - cd название_папки
+4) Создать 3 папки - mkdir terminal1 terminal2 terminal3
+5) Зайти в любую папку - cd terminal1
+6) Создать 5 файлов (3 txt, 2 json) - touch text1.txt text2.txt text3.txt json1.json json2.json
+7) Создать 3 папки - mkdir rep1 rep2 rep3
+8. Вывести список содержимого папки - ls -la 
+9) + Открыть любой txt файл - cat >text1.txt
+10) + написать туда что-нибудь, любой текст. - Тестовое сообщение для проверки отображения
+11) + сохранить и выйти. Ctrl + D
+12) Выйти из папки на уровень выше - cd ..
+—
+13) переместить любые 2 файла, которые вы создали, в любую другую папку. - mv text1.txt text2.txt ../terminal2
+14) скопировать любые 2 файла, которые вы создали, в любую другую папку. - cp text1.txt text2.txt ../terminal3
+15) Найти файл по имени - mdfind -name text3
+16) просмотреть содержимое в реальном времени (команда grep) изучите как она работает. - tail -f text2.txt
+17) вывести несколько первых строк из текстового файла - head -n 2 text2.txt
+18) вывести несколько последних строк из текстового файла - tail -n 3 text2.txt
+19) просмотреть содержимое длинного файла (команда less) изучите как она работает. - less textlong.txt ( less -N textlong.txt)
+20) вывести дату и время - date
+=========
+
+Задание *
+1) Отправить http запрос на сервер.
+http://162.55.220.72:5006/terminal-hw-request  curl http://162.55.220.72:5006/terminal-hw-request 
+2) Написать скрипт который выполнит автоматически пункты 3, 4, 5, 6, 7, 8, 13  cd terminal2; mkdir test1 test2 test3; cd test1; touch texttest1.txt texttest2.txt texttest3.txt testjson1.json testjson2.json; mkdir testrep1 testrep2 testrep3; ls -la;mv texttest1.txt texttest2.txt ../test2
+
+=====================
+1) Посмотреть где я - pwd
+2) Создать папку - mkdir foldername
+3) Зайти в папку - cd foldername
