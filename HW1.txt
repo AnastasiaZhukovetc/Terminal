@@ -26,8 +26,13 @@ HW1 Linux terminal (GitBash) commands
 
 Задание *
 1) Отправить http запрос на сервер.
-http://162.55.220.72:5006/terminal-hw-request  curl http://162.55.220.72:5006/terminal-hw-request 
-2) Написать скрипт который выполнит автоматически пункты 3, 4, 5, 6, 7, 8, 13  cd terminal2; mkdir test1 test2 test3; cd test1; touch texttest1.txt texttest2.txt texttest3.txt testjson1.json testjson2.json; mkdir testrep1 testrep2 testrep3; ls -la;mv texttest1.txt texttest2.txt ../test2
+http://162.55.220.72:5006/terminal-hw-request
+
+  curl http://162.55.220.72:5006/terminal-hw-request 
+
+2) Написать скрипт который выполнит автоматически пункты 3, 4, 5, 6, 7, 8, 13  
+
+cd terminal2; mkdir test1 test2 test3; cd test1; touch texttest1.txt texttest2.txt texttest3.txt testjson1.json testjson2.json; mkdir testrep1 testrep2 testrep3; ls -la;mv texttest1.txt texttest2.txt ../test2
 
 =====================
 1) Посмотреть где я - pwd
